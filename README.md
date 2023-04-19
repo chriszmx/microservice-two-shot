@@ -3,7 +3,10 @@
 Team:
 
 * Person 1 - Which microservice?
+Chris Zambito --- Shoes
+
 * Person 2 - Which microservice?
+Charles Stephens --- Hats
 
 ## Design
 
