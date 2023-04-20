@@ -17,5 +17,12 @@ microservice, here.
 
 ## Hats microservice
 
+Different Models Needed:
+Fabric
+Style Name
+Color
+Picture URL
+Location
+
 Explain your models and integration with the wardrobe
 microservice, here.
