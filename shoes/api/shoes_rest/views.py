@@ -25,7 +25,7 @@ class ShoeDetailEncoder(ModelEncoder):
         'color',
         'image_url',
         'bin',
-        # 'id',
+        'id',
     ]
     encoders = {
         'bin': BinVOEncoder(),
@@ -43,6 +43,7 @@ class ShoeListEncoder(ModelEncoder):
         'color',
         'image_url',
         'bin',
+        # 'import_href',
         # 'id',
     ]
     encoders = {
@@ -67,7 +68,7 @@ def list_shoes(request, bin_vo_id=None):
     else:
         content = json.loads(request.body)
         try:
-            bin_href = f'/api/bins/{bin_vo_id}/'
+            bin_href = f'/api/bins/{content["bin"]}/'
             bin = BinVO.objects.get(import_href=bin_href)
             content["bin"] = bin
         except BinVO.DoesNotExist:

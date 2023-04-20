@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/shoes" element={<ShoeList />} />
           <Route path="/shoes/new" element={<ShoeForm />} />
-          <Route path="/shoes/:id/edit" element={<ShoeForm />} />
+          {/* <Route path="/shoes/:id/edit" element={<ShoeForm />} /> */}
         </Routes>
       </div>
     </BrowserRouter>

@@ -9,6 +9,7 @@ Chris Zambito --- Shoes
 Charles Stephens --- Hats
 
 ## Design
+Just trying to get things to work
 
 ## Shoes microservice
 test

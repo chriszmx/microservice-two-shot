@@ -22,6 +22,7 @@ def get_bin():
             import_href=bin["href"],
             defaults={"closet_name": bin["closet_name"]}
         )
+        print(bin["href"])
 
 
 def poll():
@@ -30,7 +31,7 @@ def poll():
             get_bin()
         except Exception as e:
             print(e, file=sys.stderr)
-        time.sleep(5)
+        time.sleep(15)
 
 
 if __name__ == "__main__":
