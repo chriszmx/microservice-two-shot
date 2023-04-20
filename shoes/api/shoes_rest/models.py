@@ -4,7 +4,7 @@ from django.urls import reverse
 
 # Create your models here.
 class BinVO(models.Model):
-    import_href = models.CharField(max_length=100, unique=True, null=False)
+    import_href = models.CharField(max_length=100, unique=True)
     closet_name = models.CharField(max_length=100)
 
     def __str__(self):
