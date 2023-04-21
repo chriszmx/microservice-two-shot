@@ -41,13 +41,7 @@ function ShoeList() {
                   <td>{shoe.model_name}</td>
                   <td>{shoe.color}</td>
                   <td>
-                    <img
-                      src={shoe.img_url}
-                      className=""
-                      alt="picture of specific shoe"
-                      width="130"
-                      height="100"
-                    ></img>
+                    <img src={ shoe.image_url } width="130" height="100"/>
                   </td>
                   <td>{shoe.bin.closet_name}</td>
                 </tr>
