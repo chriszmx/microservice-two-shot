@@ -29,8 +29,8 @@ function ShoeList() {
               <th>Manufacturer</th>
               <th>Model</th>
               <th>Color</th>
-              <th>Bin</th>
               <th>Picture</th>
+              <th>Bin</th>
             </tr>
           </thead>
           <tbody>
@@ -49,7 +49,7 @@ function ShoeList() {
                       height="100"
                     ></img>
                   </td>
-                  <td>{shoe.bin}</td>
+                  <td>{shoe.bin.closet_name}</td>
                 </tr>
               );
             })}
