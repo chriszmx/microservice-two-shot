@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["binvo"]
+  "cSpell.words": ["binvo"],
+  "python.analysis.extraPaths": ["./shoes/api"]
 }
